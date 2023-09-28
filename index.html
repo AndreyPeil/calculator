@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <input type="text" id="display" readonly>
+    </div>
+        <div class="button">
+            <div class="one">
+                <button onclick="manda_numbro('1')">1</button>
+                <button onclick="manda_numbro('2')">2</button>
+                <button onclick="manda_numbro('3')">3</button>
+                <button class="orange" onclick="manda_numbro('+')">+</button>
+            </div>
+            <div class="two">
+                <button onclick="manda_numbro('4')">4</button>
+                <button onclick="manda_numbro('5')">5</button>
+                <button onclick="manda_numbro('6')" >6</button>
+                <button class="orange" onclick="manda_numbro('-')">-</button>
+            </div>
+            <div class="three">
+                <button onclick="manda_numbro('7')">7</button>
+                <button onclick="manda_numbro('8')">8</button>
+                <button onclick="manda_numbro('9')">9</button>
+                <button class="orange" onclick="manda_numbro('*')">*</button>
+            </div>
+            <div class="four">
+                <button onclick="manda_numbro('0')">0</button>
+                <button class="red" onclick="clear_n()">C</button>
+                <button class="orange" onclick="manda_numbro('/')">/</button>
+                <button class="bg-orange" onclick="sum_em()">=</button>
+            </div>           
+            
+              
+            
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
